@@ -1,1 +1,7 @@
-
+In the main method, we could:
+  1. do something
+    statements: declarations, assignments, method calls
+  2. do something again and again
+    loops: for and while
+  3. do something under this condition
+    branching: if/else tests
