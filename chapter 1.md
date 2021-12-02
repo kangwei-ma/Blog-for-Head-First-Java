@@ -8,11 +8,11 @@ In the main method, we could:
     branching: if/else tests;
 
 syntax:
-statement must end in a semicolon;
-//single line comment begins with two forward slashes;
-most white space doesn't matter;
-declare variables with a name and a type;
-class and method must be defined within a pair of curly braces {}
+  statement must end in a semicolon;
+  //single line comment begins with two forward slashes;
+  most white space doesn't matter;
+  declare variables with a name and a type;
+  class and method must be defined within a pair of curly braces {}
 
 java is oop, most stuff in java are objects;
 a program only need one main;
