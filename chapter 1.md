@@ -16,4 +16,4 @@ syntax:
   class and method must be defined within a pair of curly braces {}
 
 java is oop, most stuff in java are objects;
-a program only need one main;
+a program only need one main
