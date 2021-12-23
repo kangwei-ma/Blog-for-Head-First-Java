@@ -1,4 +1,3 @@
-6-java API 函数库  
  # 6 认识java的API  P125-165   
 使用java函数库  
 java内置有数百个类  
@@ -62,6 +61,41 @@ arrayList<string>
 就像arrayList<dog>代表dog的集合。  
 
 
+P154  
+要使用API中的类，你必须知道他被放在哪个包中。  
+java函数库中的每个类都属于某个包，像是javax.util  
+顾名思义，javax.util里面放了很多工具类  
+使用来自API的类是很简单的  
+只要把他们当做是自己写的就好  
+但必须指明函数库类的完整名称    
+来自API的类：  
+System(system.out.println)  
+String  
+Math (math.random())  
+都是属于java.lang这个包  
+
+P155  
+必须指明函数库类的完整名称   
+IMPORT 在程序源文件的最前面。  
+
+P156  
+ #要点  
+	• arrayList 是个java API的类   
+	• 使用add()来新增arrayList的元素   
+	• 使用remove()来删除arrayList中的元素  
+	• 要寻找某项元素的位置，使用indexOf()  
+	• 使用isEmpty()来判别arrayList是否为空  
+	• 要取得arrayList的大小 使用size()方法  
+	• 传统的数组可以用length这个变量取得大小  
+	• arrayList会自动地调整大小  
+	• 你可以用参数类型来声明数组内容的类型  
+	• 虽然arrayList只能携带对象而不是primitive主数据类型，  
+	但编译器能够自动地将primitive主数据类型包装成object，以存放在arrayList中  
+	• 类会用包 来组织   
+	• 类有完整的名称，由包和类的名称所组成。    
+	• 除了java.lang之外，使用到其他包的类都需要指定全名。   
+	• 也可以import  
 
 
-![image](https://user-images.githubusercontent.com/88927644/147094932-12684eae-5888-4884-a7a0-62dee0371e89.png)
+
+![image](https://user-images.githubusercontent.com/88927644/147239677-1f0982dc-8a5f-4d4c-b7c1-1e227eb04d20.png)
